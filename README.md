@@ -1,6 +1,7 @@
 # Realtime-Private-Messaging-Web-Application
 ## Description
-### Note: If interested in cloning: user will have to set up their own firebase backend, and update credentials in src/firebase.js
+### Note: 
+If interested in cloning: user will have to set up their own firebase backend, and update credentials in src/firebase.js
 ## Technologies Utilized
 #### Front End: SCSS, React.js
 #### Back End: Firebase
