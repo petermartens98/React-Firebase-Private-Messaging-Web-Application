@@ -3,7 +3,7 @@
 ### Note: 
 If interested in cloning: user will have to set up their own firebase backend, and update credentials in src/firebase.js
 ## Description
-Private messaging app built using React for frontend and Firebase for backend to ensure security and privacy. It has a user-friendly interface and is accessible on desktop and mobile devices. Users can create accounts, log in securely, and join private chat rooms.
+Realtime private messaging app built using React for frontend and Firebase for backend to ensure security and privacy. It has a user-friendly interface and is accessible on desktop and mobile devices. Users can create accounts, log in securely, and join private chat rooms.
 
 ## Technologies Utilized
 #### Front End: SCSS, React.js
