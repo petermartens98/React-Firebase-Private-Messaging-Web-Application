@@ -1,5 +1,5 @@
 # Realtime-Private-Messaging-Web-Application
-### Deployment coming soon!
+#### Deployment coming soon!
 ## Description
 ### Note: 
 If interested in cloning: user will have to set up their own firebase backend, and update credentials in src/firebase.js
