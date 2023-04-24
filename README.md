@@ -14,11 +14,11 @@ If interested in cloning: user will have to set up their own firebase backend, a
 ### Home Screenshot
 ![image](https://user-images.githubusercontent.com/87671757/234015426-7ca5eb3c-9b43-48ff-b79f-51121f35d575.png)
 ### Home React Components
-### Chat.jsx
-### Chats.jsx
-### Input.jsx
-### Message.jsx
-### Messages.jsx
+#### Chat.jsx
+#### Chats.jsx
+#### Input.jsx
+#### Message.jsx
+#### Messages.jsx
 
 ## Register
 This is a functional component in a React web application for registering a user. It uses Firebase for authentication and storage.
@@ -29,5 +29,6 @@ If there are any errors during the registration process, an error message is dis
 ### Register Screenshot
 ![image](https://user-images.githubusercontent.com/87671757/234019890-a7b7d65a-1945-4d22-9dff-78ae37bfcb6e.png)
 ## Login
+This is a React component for the login page of an application, which allows users to sign in with their email and password. It imports necessary Firebase authentication modules to handle the sign-in process, and uses the useNavigate hook from react-router-dom to navigate to the home page upon successful login. The component includes a form for users to input their email and password, and displays an error message if there is an issue with the login. The component also provides a link to the registration page for users who do not yet have an account.
 ### Login Screenshot
 ![image](https://user-images.githubusercontent.com/87671757/234019988-d8f4ca1d-e432-46cf-a3c3-70ccff32154a.png)
