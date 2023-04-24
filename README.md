@@ -12,10 +12,10 @@ If interested in cloning: user will have to set up their own firebase backend, a
 ## Pages
 ### Register
 #### Register Screenshot
-![image](https://user-images.githubusercontent.com/87671757/234019714-4f27af56-d1ad-422e-a733-b7ad884582dc.png)
+![image](https://user-images.githubusercontent.com/87671757/234019890-a7b7d65a-1945-4d22-9dff-78ae37bfcb6e.png)
 ### Login
 #### Login Screenshot
-![image](https://user-images.githubusercontent.com/87671757/234019507-daddaed5-05a9-4874-ae61-41ff63941825.png)
+![image](https://user-images.githubusercontent.com/87671757/234019988-d8f4ca1d-e432-46cf-a3c3-70ccff32154a.png)
 ### Home
 #### Home Screenshot
 ![image](https://user-images.githubusercontent.com/87671757/234015426-7ca5eb3c-9b43-48ff-b79f-51121f35d575.png)
