@@ -1,7 +1,7 @@
 # Realtime-Private-Messaging-Web-Application
-#### Video Demo: https://www.youtube.com/watch?v=Mgzh8QOWmWQ
 #### Deployment: https://peter-chat-f09bb.web.app/
-To test functionality you can Message Peter, Patrick, Kenny or Barack, after searching displayname and pressing enter.
+#### Video Demo: https://www.youtube.com/watch?v=Mgzh8QOWmWQ
+To test functionality you can Message Peter, Patrick, Kenny, Larry or Barack, after searching displayname and pressing enter.
 ### Note: 
 If interested in cloning: user will have to set up their own firebase backend, and update credentials in src/firebase.js
 ## Description
