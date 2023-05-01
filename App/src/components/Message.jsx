@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useRef } from "react";
 import { AuthContext } from "../context/AuthContext";
 import { ChatContext } from "../context/ChatContext";
 
+
 const Message = ({ message }) => {
   const { currentUser } = useContext(AuthContext);
   const { data } = useContext(ChatContext);
@@ -9,8 +10,24 @@ const Message = ({ message }) => {
   const ref = useRef();
 
   useEffect(() => {
-    ref.current?.scrollIntoView({ behavior: "smooth" });
+    if (ref.current) {
+      ref.current.scrollIntoView({ behavior: "smooth" });
+    }
   }, [message]);
+
+  const formatDate = (date) => {
+    const optionsDate = { month: "short", day: "numeric" };
+    const optionsTime = { hour: "numeric", minute: "numeric" };
+    const formattedDate = new Date(date.toDate()).toLocaleDateString([], optionsDate);
+    const formattedTime = new Date(date.toDate()).toLocaleTimeString([], optionsTime);
+    return (
+      <>
+        <div>{formattedDate}</div>
+        <div>{formattedTime}</div>
+      </>
+    );
+  };
+  
 
   return (
     <div
@@ -26,7 +43,7 @@ const Message = ({ message }) => {
           }
           alt=""
         />
-        <span>just now</span>
+         {formatDate(message.date)}
       </div>
       <div className="messageContent">
         <p>{message.text}</p>
@@ -37,3 +54,4 @@ const Message = ({ message }) => {
 };
 
 export default Message;
+

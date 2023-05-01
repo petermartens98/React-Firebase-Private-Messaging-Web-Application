@@ -229,6 +229,13 @@ $backcolor: #000000c9;
         justify-content: space-between;
         padding: 10px;
         color: lightgray;
+
+        img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          object-fit: cover; 
+        }
       }
 
       .chatIcons {
